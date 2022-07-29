@@ -16,6 +16,8 @@ jobs:
         with:
           config_timezone: Australia/Sydney
           token: ${{ secrets.METRICS_TOKEN }}
-          base: activity, repositories, metadata
+          base: activity, community, repositories, metadata
           user: SuperiorJacob
           plugin_lines: yes
+          plugin_languages: yes
+          plugin_calendar: yes
